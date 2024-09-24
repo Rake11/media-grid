@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Cart</title>
+    <link rel="stylesheet" href="vamsi.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .food-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Responsive grid layout */
+            gap: 20px; /* Gap between grid items */
+            padding: 20px;
+        }
+
+        .food-item {
+            background-color: #f9f9f9; /* Default light color */
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            transition: background-color 0.3s ease; /* Smooth transition for background color */
+        }
+
+        .food-item img {
+            width: 100%; /* Make the image responsive */
+            border-radius: 8px;
+        }
+
+        /* Custom sizes for specific items */
+        .food-item:nth-child(1) {
+            grid-column: span 2; /* Span 2 columns */
+        }
+
+        .food-item:nth-child(2) {
+            grid-column: span 1; /* Span 1 column */
+        }
+
+        .food-item:nth-child(3) {
+            grid-column: span 2; /* Span 2 columns */
+        }
+
+        .food-item:nth-child(4) {
+            grid-column: span 1; /* Span 1 column */
+        }
+
+        .food-item:nth-child(5) {
+            grid-column: span 1; /* Span 1 column */
+        }
+
+        .food-item:nth-child(6) {
+            grid-column: span 2; /* Span 2 columns */
+        }
+
+        .food-item:nth-child(7) {
+            grid-column: span 1; /* Span 1 column */
+        }
+
+        .food-item:nth-child(8) {
+            grid-column: span 1; /* Span 1 column */
+        }
+
+        .food-item:nth-child(9) {
+            grid-column: span 1; /* Span 1 column */
+        }
+
+        .food-item:nth-child(10) {
+            grid-column: span 2; /* Span 2 columns */
+        }
+
+        .food-item:nth-child(11) {
+            grid-column: span 1; /* Span 1 column */
+        }
+
+        .food-item:nth-child(12) {
+            grid-column: span 1; /* Span 1 column */
+        }
+
+        @media (max-width: 600px) {
+            body {
+                background-color: #e0f7fa; /* Light cyan */
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 900px) {
+            body {
+                background-color: #ffe0b2; /* Light orange */
+            }
+        }
+
+        @media (min-width: 901px) {
+            body {
+                background-color: #fff9c4; /* Light yellow */
+            }
+        }
+
+        .food-item-part-2 {
+            margin-top: 10px;
+        }
+
+        .food-item-part-2_1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .food-item-part-2_2 {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="food-items">
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg?output-format=webp" alt="">
+            <div class="food-item-part-2">
+                <div class="food-item-part-2_1">
+                    <h3>VamsiFoods</h3>
+                    <span>4.2</span>
+                </div>
+                <div class="food-item-part-2_2">
+                    <p>South-Indian, spicy food</p>
+                    <span>500</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
